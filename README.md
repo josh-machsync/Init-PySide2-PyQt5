@@ -30,7 +30,7 @@ project_root/
     └── database.py         # 資料庫連線與操作
 ```
 
-QT UI To Python
+##QT UI To Python
 ``` bash
 pyuic5 -x qt_designer.ui -o qt_designer.py
 
