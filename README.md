@@ -1,6 +1,7 @@
 # Init-PyQt5
 pyqt5 一個初始化範例
 
+- npm
 - python 3.8.10
 - pQqt5
 - [Qt Designer](https://build-system.fman.io/qt-designer-download)
@@ -30,9 +31,18 @@ project_root/
     └── database.py         # 資料庫連線與操作
 ```
 
+## Demo Start
+``` bash
+npm run start
+
+```
+
 ## QT UI To Python
 ``` bash
-pyuic5 -x qt_designer.ui -o qt_designer.py
+pyuic5 -x qt_designer.ui -o qt_designer.py # 根據 UI 名稱做修改
+# OR
+npm run build-ui # 根據 UI 名稱修改 package build-ui
+# OR
 
 ```
 
