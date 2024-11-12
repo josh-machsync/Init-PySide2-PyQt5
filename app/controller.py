@@ -1,17 +1,19 @@
 # controller.py
 
 import sys
-from PyQt5 import QtCore, QtGui, QtWidgets
-from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QTableView, QVBoxLayout, QWidget
-from PyQt5.QtGui import QStandardItemModel, QStandardItem, QColor
+from PySide2.QtCore import *
+from PySide2.QtGui import *
+from PySide2.QtWidgets import *
+from . import logger  # 從同一個包導入 logger
 
 class Controller:
     def __init__(self, model, view):
+        logger.debug("Initializing Controller")
         self.model = model
         self.view = view
 
         # 連接視圖的按鈕到控制器的槽
-        self.view.button.clicked.connect(self.increment_count)
+        self.view.pushButton.clicked.connect(self.increment_count)
 
     def increment_count(self):
         # 更新模型的數據

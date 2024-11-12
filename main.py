@@ -1,6 +1,6 @@
 # main.py
 import sys
-from PyQt5.QtWidgets import QApplication
+from PySide2.QtWidgets import QApplication
 from app.model import Model
 from app.view import View
 from app.controller import Controller

@@ -2,7 +2,7 @@
     "name": "my-python-project",
     "version": "1.0.0",
     "scripts": {
-      "start": "python main.py",
-      "build-ui": "pyuic5 -x ./ui/qt_designer.ui -o ./app/qt_designer.py"
+      "dev": "python main.py",
+      "build-ui": "pyside2-uic ./ui/qt_designer.ui > ./app/qt_designer.py"
     }
   }

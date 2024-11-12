@@ -3,7 +3,7 @@ pyqt5 一個初始化範例
 
 - npm
 - python 3.8.10
-- pQqt5
+- PySide2
 - [Qt Designer](https://build-system.fman.io/qt-designer-download)
 
 ### 檔案架構
@@ -33,13 +33,13 @@ project_root/
 
 ## Demo Start
 ``` bash
-npm run start
+npm run dev
 
 ```
 
-## QT UI To Python
+## QT-pyside2  UI To Python
 ``` bash
-pyuic5 -x qt_designer.ui -o qt_designer.py # 根據 UI 名稱做修改
+pyside2-uic qt_designer.ui > qt_designer.py # 根據 UI 名稱做修改
 # OR
 npm run build-ui # 根據 UI 名稱修改 package build-ui
 # OR
@@ -48,9 +48,12 @@ npm run build-ui # 根據 UI 名稱修改 package build-ui
 
 
 
-
-
 # 其他
+
+## .ENV
+``` bash
+LOG_TO_FILE=True # True / False 日誌開關 
+``` 
 
 
 
