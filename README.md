@@ -1,4 +1,7 @@
 # Init-PySide2
+
+[Init PyQt5 在這裡](https://github.com/josh-machsync/Init-PySide2-PyQt5/tree/pyqt5?tab=readme-ov-file)
+
 PySide2 一個初始化範例
 
 - npm
