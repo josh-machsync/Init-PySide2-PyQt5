@@ -1,6 +1,7 @@
 # Init-PyQt5
 
-[PySide2](https://github.com/josh-machsync/Init-PySide2-PyQt5/tree/pyside2)
+[Init PySide2 在這裡](https://github.com/josh-machsync/Init-PySide2-PyQt5/tree/pyside2)
+
 pyqt5 一個初始化範例
 
 - npm
