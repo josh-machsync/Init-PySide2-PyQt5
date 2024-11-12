@@ -1,5 +1,5 @@
-# Init-PyQt5
-pyqt5 一個初始化範例
+# Init-PySide2
+PySide2 一個初始化範例
 
 - npm
 - python 3.8.10
